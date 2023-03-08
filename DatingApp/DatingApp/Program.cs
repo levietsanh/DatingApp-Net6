@@ -1,9 +1,13 @@
 using DatingApp.Data;
+using DatingApp.Interfaces;
+using DatingApp.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+//add Token
+builder.Services.AddScoped<ITokenService, TokenService>();
 
 //connection database
 builder.Services.AddDbContext<DataContext>(options =>
