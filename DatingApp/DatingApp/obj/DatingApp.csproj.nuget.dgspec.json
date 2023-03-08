@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Users\\levie\\Documents\\DatingApp_Net6\\DatingApp\\DatingApp\\DatingApp.csproj": {}
+    "C:\\Users\\levie\\source\\repos\\DatingApp-Net6\\DatingApp\\DatingApp\\DatingApp.csproj": {}
   },
   "projects": {
-    "E:\\Users\\levie\\Documents\\DatingApp_Net6\\DatingApp\\DatingApp\\DatingApp.csproj": {
+    "C:\\Users\\levie\\source\\repos\\DatingApp-Net6\\DatingApp\\DatingApp\\DatingApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Users\\levie\\Documents\\DatingApp_Net6\\DatingApp\\DatingApp\\DatingApp.csproj",
+        "projectUniqueName": "C:\\Users\\levie\\source\\repos\\DatingApp-Net6\\DatingApp\\DatingApp\\DatingApp.csproj",
         "projectName": "DatingApp",
-        "projectPath": "E:\\Users\\levie\\Documents\\DatingApp_Net6\\DatingApp\\DatingApp\\DatingApp.csproj",
+        "projectPath": "C:\\Users\\levie\\source\\repos\\DatingApp-Net6\\DatingApp\\DatingApp\\DatingApp.csproj",
         "packagesPath": "C:\\Users\\levie\\.nuget\\packages\\",
-        "outputPath": "E:\\Users\\levie\\Documents\\DatingApp_Net6\\DatingApp\\DatingApp\\obj\\",
+        "outputPath": "C:\\Users\\levie\\source\\repos\\DatingApp-Net6\\DatingApp\\DatingApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\levie\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.13, )"
@@ -54,9 +58,17 @@
               "target": "Package",
               "version": "[6.0.13, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.27.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.27.0, )"
             }
           },
           "imports": [
@@ -78,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

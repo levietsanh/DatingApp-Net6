@@ -1,22 +1,23 @@
 using DatingApp.Data;
+using DatingApp.Extensions;
 using DatingApp.Interfaces;
 using DatingApp.Services;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-//add Token
-builder.Services.AddScoped<ITokenService, TokenService>();
+//add Token and connection database
+builder.Services.AddApplicationServices(builder.Configuration);
 
-//connection database
-builder.Services.AddDbContext<DataContext>(options =>
-   {
-       options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
-   });
 builder.Services.AddControllers();
 //add Cors
 builder.Services.AddCors();
+//add Authencation
+builder.Services.AddIdentityServices(builder.Configuration);
 
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -34,8 +35,9 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseCors( x => x.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://localhost:4200"));
+app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://localhost:4200"));
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
