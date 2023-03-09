@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\DatingApp",
+    "\\DatingApp\\client",
+    "\\DatingApp\\client\\src",
+    "\\DatingApp\\DatingApp"
   ],
-  "SelectedNode": "\\DatingApp.sln",
+  "SelectedNode": "\\DatingApp\\DatingApp.sln",
   "PreviewInSolutionExplorer": false
 }
