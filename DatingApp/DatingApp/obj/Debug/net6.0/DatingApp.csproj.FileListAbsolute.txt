@@ -140,3 +140,6 @@ C:\Users\levie\source\repos\DatingApp-Net6\DatingApp\DatingApp\obj\Debug\net6.0\
 C:\Users\levie\source\repos\DatingApp-Net6\DatingApp\DatingApp\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\levie\source\repos\DatingApp-Net6\DatingApp\DatingApp\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\levie\source\repos\DatingApp-Net6\DatingApp\DatingApp\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\levie\source\repos\DatingApp-Net6\DatingApp\DatingApp\bin\Debug\net6.0\Data\UserSeedData.json
+C:\Users\levie\source\repos\DatingApp-Net6\DatingApp\DatingApp\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\levie\source\repos\DatingApp-Net6\DatingApp\DatingApp\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
