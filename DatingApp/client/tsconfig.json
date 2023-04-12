@@ -19,15 +19,14 @@
     "target": "ES2020",
     "module": "ES2020",
     "useDefineForClassFields": false,
-    "lib": [
-      "ES2020",
-      "dom"
-    ]
+    "lib": ["dom", "es2019", "es2020", "dom.iterable"]
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
-    "strictTemplates": false
+    "strictTemplates": false,
+    "fullTemplateTypeCheck": true,
+    "types": [ "node" ]
   }
 }

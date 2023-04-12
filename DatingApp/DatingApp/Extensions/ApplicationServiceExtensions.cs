@@ -18,6 +18,12 @@ namespace DatingApp.Extensions
 
             //add service Photo
             services.AddScoped<IPhotoService, PhotoService>();
+
+            // add service Like
+            services.AddScoped<ILikesRepository, LikesRepository>();
+
+            //add service LogUserAcitvity
+            services.AddScoped<LogUserActivity>();
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddAutoMapper(typeof(AutoMapperProfiles).Assembly);
             //connection database
