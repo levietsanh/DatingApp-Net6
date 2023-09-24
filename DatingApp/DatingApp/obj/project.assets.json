@@ -3360,11 +3360,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\levie\\source\\repos\\DatingApp-Net6\\DatingApp\\DatingApp\\DatingApp.csproj",
+      "projectUniqueName": "E:\\Users\\levie\\Documents\\CSharp\\DatingApp\\DatingApp\\DatingApp\\DatingApp.csproj",
       "projectName": "DatingApp",
-      "projectPath": "C:\\Users\\levie\\source\\repos\\DatingApp-Net6\\DatingApp\\DatingApp\\DatingApp.csproj",
+      "projectPath": "E:\\Users\\levie\\Documents\\CSharp\\DatingApp\\DatingApp\\DatingApp\\DatingApp.csproj",
       "packagesPath": "C:\\Users\\levie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\levie\\source\\repos\\DatingApp-Net6\\DatingApp\\DatingApp\\obj\\",
+      "outputPath": "E:\\Users\\levie\\Documents\\CSharp\\DatingApp\\DatingApp\\DatingApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\levie\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3375,6 +3375,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3455,7 +3456,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

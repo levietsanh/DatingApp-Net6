@@ -25,6 +25,8 @@ namespace DatingApp.Extensions
             //add service LogUserAcitvity
             services.AddScoped<LogUserActivity>();
             services.AddScoped<IUserRepository, UserRepository>();
+
+            services.AddScoped<IMessageRepository, MessageRepository>();
             services.AddAutoMapper(typeof(AutoMapperProfiles).Assembly);
             //connection database
             services.AddDbContext<DataContext>(options =>
