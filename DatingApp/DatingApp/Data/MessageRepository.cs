@@ -49,7 +49,7 @@ namespace DatingApp.Data
             return await PagedList<MessageDto>.CreateAsync(messages, messageParams.PageNumber, messageParams.PageSize);
         }
 
-        public Task<IEnumerable<MessageDto>> GetMessageThread(int currentUserId, int recipientId)
+        public Task<IEnumerable<MessageDto>> GetMessageThread(string currentUser, string recipientUsername)
         {
             throw new NotImplementedException();
         }
